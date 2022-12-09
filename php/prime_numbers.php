@@ -1,11 +1,14 @@
 <?php
 // Program to print first 15 prime numbers
-function run(): void
+
+// Create show prime numbers function
+function show_prime_numbers(): void
 {
     $primes = [];
     $stop = false;
     $number = 2;
     $is_prime = false;
+    $num_of_primes = 15;
     while(! $stop){
         if ($number <= 3){
             $primes[] = $number;
@@ -23,14 +26,19 @@ function run(): void
             $primes[] = $number;
         }
 
-        if(count($primes) == 15){
+        if(count($primes) == $num_of_primes){
             $stop = true;
         } 
         ++$number;
     }
-    printf("1st 15 Prime numbers are: %s", implode(',', $primes));
+    // Finally print the output
+    printf(
+        "1st %d Prime numbers are: %s", 
+        $num_of_primes, 
+        implode(',', $primes)
+    );
 }
 
-// Run the program
-run();
+//calling the function
+show_prime_numbers();
 
