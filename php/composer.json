@@ -2,7 +2,7 @@
     "name": "devel/php",
     "autoload": {
         "psr-4": {
-            "\\": "/"
+            "php\\": "/"
         }
     },
     "authors": [
