@@ -1,0 +1,15 @@
+{
+    "name": "devel/php",
+    "autoload": {
+        "psr-4": {
+            "\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diwakar Kumar",
+            "email": "developer.diwakar@gmail.com"
+        }
+    ],
+    "require": {}
+}
