@@ -1,5 +1,8 @@
 <?php 
-// Swapping two numbers without using third variables
+/**
+ * Two numbers can be swapped or interchanged. 
+ * It means first number will become second and second number will become first.
+ */
 
 # 1st method
 $a = 4;
