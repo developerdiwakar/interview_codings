@@ -25,3 +25,12 @@ $x = $$x;
 
 echo "2nd method: \n";
 printf("x = %u, y = %u", $x, $y);
+
+# 3rd Method
+$first = 23;
+$second = 90; 
+
+[$first, $second] = [$second, $first];
+
+echo "3rd method: \n";
+printf("first = %u, second = %u", $first, $second);
