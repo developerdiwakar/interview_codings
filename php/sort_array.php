@@ -46,5 +46,5 @@ function sortArray(array $input, string $order='desc'): array
 }
 
 // Calling the Sort array function
-$output = sortArray([3, 4, 1, 5, 6, 9, 7], 'asc');
+$output = sortArray([23, 24, 8, 3, 2, 4, 1, 5, 6, 9, 7], 'asc');
 print_r($output);
